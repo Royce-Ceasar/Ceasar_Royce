@@ -1,0 +1,21 @@
+#Header1{
+    color: blue;
+    text-align: center;
+}
+.paragraph{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img {
+     width: 150;
+     height: auto;
+     border-radius: 50;
+     display: block; 
+     margin: 10px auto;
+}
+ul {
+    list-style: none;
+    text-align: center;
+}
