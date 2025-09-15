@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Bingo Game</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+    integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <style>
+    .bingo-cell {
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 1.5rem;
+      border: 1px solid #ccc;
+    }
+    .marked {
+      background-color: #ffc107;
+      color: white;
+    }
+  </style>
+</head>
+<body class="container py-5">
+  <h1 class="text-center mb-4">🎯 Bingo Game</h1>
+  <table class="table table-bordered text-center" id="bingo-board">
+    <thead>
+      <tr>
+        <th>B</th><th>I</th><th>N</th><th>G</th><th>O</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <div class="text-center mt-4">
+    <button class="btn btn-primary" onclick="callNextNumber()">
+      <i class="fas fa-bullhorn"></i> Call Next Number
+    </button>
+  </div>
+
+  <!-- Link to external JS file -->
+  <script src="scripts/bingo.js"></script>
+</body>
+</html>
