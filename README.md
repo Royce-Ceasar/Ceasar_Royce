@@ -1,5 +1,5 @@
 #Random_Project
-Give Ideas
-Store Ideas
-Make Ideas
-Create Ideas
+Give Ideas \n
+Store Ideas \n
+Make Ideas \n
+Create Ideas \n
